@@ -28,6 +28,10 @@
     a { color: var(--olive); }
     .wrap { width: min(1040px, calc(100% - 40px)); margin: 0 auto; }
     header { padding: 76px 0 58px; border-bottom: 1px solid var(--line); }
+    .brand-lockup { display: flex; align-items: center; gap: 18px; margin-bottom: 30px; }
+    .brand-mark { width: 82px; height: 82px; flex: 0 0 82px; filter: drop-shadow(0 8px 18px #0008); }
+    .brand-name { color: #e8e9df; font-size: .82rem; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; }
+    .brand-sub { color: var(--muted); font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; margin-top: 3px; }
     .eyebrow {
       color: var(--olive); text-transform: uppercase; letter-spacing: .2em;
       font-size: .75rem; font-weight: 750;
@@ -63,6 +67,18 @@
 <body>
   <header>
     <div class="wrap">
+      <div class="brand-lockup" aria-label="ExileZ server emblem">
+        <svg class="brand-mark" viewBox="0 0 100 100" role="img" aria-labelledby="logoTitle">
+          <title id="logoTitle">ExileZ shield emblem</title>
+          <path d="M50 4 88 18v29c0 24-15 39-38 49C27 86 12 71 12 47V18L50 4Z" fill="#171d14" stroke="#a0ad70" stroke-width="3"/>
+          <path d="M50 12 80 23v24c0 19-11 32-30 41-19-9-30-22-30-41V23L50 12Z" fill="none" stroke="#657348" stroke-width="1.5"/>
+          <path d="M27 34h46M27 66h46" stroke="#657348" stroke-width="2"/>
+          <path d="M50 23 61 42 50 37 39 42 50 23Z" fill="#a0ad70"/>
+          <text x="50" y="59" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="900" letter-spacing="-1" fill="#f0f1e9">EZ</text>
+          <path d="m50 70 7 8-7 4-7-4 7-8Z" fill="#a0ad70"/>
+        </svg>
+        <div><div class="brand-name">ExileZ</div><div class="brand-sub">ReZurrection · Est. for survival</div></div>
+      </div>
       <div class="eyebrow">DayZ · PC only · Community server</div>
       <h1>ExileZ: <span>ReZurrection</span></h1>
       <p class="lead">A hardcore survival experience built around the world of DayZ. This page publicly explains our optional supporter packages, what they provide, and how contributions help maintain the server.</p>
