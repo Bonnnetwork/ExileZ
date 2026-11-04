@@ -8,20 +8,20 @@
   <style>
     :root {
       color-scheme: dark;
-      --bg: #10130f;
-      --panel: #191e17;
-      --panel2: #20271d;
-      --text: #e8e9df;
-      --muted: #a7ad9d;
-      --olive: #a0ad70;
-      --olive-dark: #657348;
-      --line: #343d2d;
+      --bg: #080a0d;
+      --panel: #14181e;
+      --panel2: #1c222a;
+      --text: #f1f4f7;
+      --muted: #aab3bf;
+      --olive: #e7edf5;
+      --olive-dark: #778493;
+      --line: #343d49;
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      background: radial-gradient(ellipse at 50% -15%, #303b25 0, var(--bg) 48%);
+      background: radial-gradient(ellipse at 50% -15%, #28313d 0, var(--bg) 48%);
       color: var(--text);
       font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
@@ -30,7 +30,7 @@
     header { padding: 76px 0 58px; border-bottom: 1px solid var(--line); }
     .brand-lockup { display: flex; align-items: center; gap: 18px; margin-bottom: 30px; }
     .brand-mark { width: 82px; height: 82px; flex: 0 0 82px; filter: drop-shadow(0 8px 18px #0008); }
-    .brand-name { color: #e8e9df; font-size: .82rem; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; }
+    .brand-name { color: #f1f4f7; font-size: .82rem; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; }
     .brand-sub { color: var(--muted); font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; margin-top: 3px; }
     .eyebrow {
       color: var(--olive); text-transform: uppercase; letter-spacing: .2em;
@@ -40,7 +40,7 @@
     h1 span { color: var(--olive); }
     .lead { max-width: 680px; color: var(--muted); font-size: 1.12rem; }
     .badges { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
-    .badge { border: 1px solid var(--line); background: #171c14; padding: 6px 12px; border-radius: 3px; color: #cbd0bf; font-size: .82rem; }
+    .badge { border: 1px solid var(--line); background: #11161d; padding: 6px 12px; border-radius: 3px; color: #d0d7e0; font-size: .82rem; }
     nav { display: flex; flex-wrap: wrap; gap: 22px; padding: 17px 0; border-bottom: 1px solid var(--line); }
     nav a { color: var(--muted); text-decoration: none; font-size: .9rem; }
     nav a:hover { color: var(--olive); }
@@ -55,11 +55,11 @@
     .price small { color: var(--muted); font-size: .85rem; font-weight: 500; letter-spacing: 0; }
     ul { padding-left: 20px; margin: 12px 0 0; }
     li { margin: 7px 0; }
-    .notice { margin-top: 18px; padding: 17px 19px; border-left: 3px solid var(--olive); background: #1b2117; color: #cbd0bf; }
+    .notice { margin-top: 18px; padding: 17px 19px; border-left: 3px solid var(--olive); background: #171e27; color: #d0d7e0; }
     .notice strong { color: var(--text); }
-    .pill { display: inline-block; margin-bottom: 10px; padding: 3px 8px; border: 1px solid #6a754b; color: var(--olive); text-transform: uppercase; letter-spacing: .1em; font-size: .68rem; font-weight: 750; }
+    .pill { display: inline-block; margin-bottom: 10px; padding: 3px 8px; border: 1px solid #8492a3; color: var(--olive); text-transform: uppercase; letter-spacing: .1em; font-size: .68rem; font-weight: 750; }
     .cta { display: inline-block; margin-top: 10px; padding: 11px 17px; background: var(--olive-dark); color: #fff; text-decoration: none; border-radius: 3px; font-weight: 700; }
-    .cta:hover { background: #78885a; }
+    .cta:hover { background: #aab6c5; }
     footer { padding: 28px 0 42px; color: var(--muted); font-size: .86rem; }
     @media (max-width: 680px) { .grid { grid-template-columns: 1fr; } header { padding-top: 54px; } nav { gap: 14px; } }
   </style>
@@ -70,12 +70,12 @@
       <div class="brand-lockup" aria-label="ExileZ server emblem">
         <svg class="brand-mark" viewBox="0 0 100 100" role="img" aria-labelledby="logoTitle">
           <title id="logoTitle">ExileZ shield emblem</title>
-          <path d="M50 4 88 18v29c0 24-15 39-38 49C27 86 12 71 12 47V18L50 4Z" fill="#171d14" stroke="#a0ad70" stroke-width="3"/>
-          <path d="M50 12 80 23v24c0 19-11 32-30 41-19-9-30-22-30-41V23L50 12Z" fill="none" stroke="#657348" stroke-width="1.5"/>
-          <path d="M27 34h46M27 66h46" stroke="#657348" stroke-width="2"/>
-          <path d="M50 23 61 42 50 37 39 42 50 23Z" fill="#a0ad70"/>
-          <text x="50" y="59" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="900" letter-spacing="-1" fill="#f0f1e9">EZ</text>
-          <path d="m50 70 7 8-7 4-7-4 7-8Z" fill="#a0ad70"/>
+          <path d="M50 4 88 18v29c0 24-15 39-38 49C27 86 12 71 12 47V18L50 4Z" fill="#171d14" stroke="#e7edf5" stroke-width="3"/>
+          <path d="M50 12 80 23v24c0 19-11 32-30 41-19-9-30-22-30-41V23L50 12Z" fill="none" stroke="#778493" stroke-width="1.5"/>
+          <path d="M27 34h46M27 66h46" stroke="#778493" stroke-width="2"/>
+          <path d="M50 23 61 42 50 37 39 42 50 23Z" fill="#e7edf5"/>
+          <text x="50" y="59" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="900" letter-spacing="-1" fill="#f5f7fa">EZ</text>
+          <path d="m50 70 7 8-7 4-7-4 7-8Z" fill="#e7edf5"/>
         </svg>
         <div><div class="brand-name">ExileZ</div><div class="brand-sub">ReZurrection · Est. for survival</div></div>
       </div>
